@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart JS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="min-h-screen flex flex-col justify-center items-center">
+
+    <!-- Begin header section -->
+    <header>
+
+        <div class="flex justify-between gap-96 mb-10">
+            <h1 class="font-bold text-3xl mb-5">GMC Shop</h1>
+            <div>
+                <p class="font-medium">Number of items : <span id="number-items" class="bg-red-500 text-white rounded-full px-[6px] pb-[2px]">0</span> product(s)</p>
+                <p class="font-medium">Total price : <span id="total-price" class="font-bold">0</span> €</p>
+            </div>
+        </div>
+
+    </header>
+    <!-- End header section -->
+
+
+    <!-- Begin main section -->
+    <main>
+        <section>
+
+            <div>
+                <div>
+                    <h2 class="font-bold text-2xl mb-3">Explorez la gamme</h2>
+                </div>
+
+                <div class="flex gap-16">
+                    <article class="p-4">
+                        <figure class="relative">
+                            <img src="/assets/iphone_15_1.png" alt="iPhone 15">
+                            <span class="nbr-itm absolute top-2 right-2 bg-indigo-700/50 py-1 px-2 rounded-md text-white">0</span>
+                        </figure>
+                        <div>
+                            <h2 class="font-bold text-lg mt-3">iPhone 15</h2>
+                            <p>Super. Puissant.</p>
+                        </div>
+                        <div>
+                            <p class="font-medium"><span class="product-price">969</span> €</p>
+                            <div class="flex justify-between mt-3">
+                                <button class="plus bg-indigo-700 hover:bg-indigo-600 text-white py-2 px-6 rounded-md">Add to
+                                    cart</button>
+                                <button class="minus border-2 border-indigo-700 hover:bg-indigo-700 hover:text-white  py-[6px] px-3 rounded-md font-bold ">-</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="p-4">
+                        <figure class="relative">
+                            <img src="/assets/iphone_14__3.png"" alt=" iPhone 14">
+                            <span class="nbr-itm absolute top-2 right-2 bg-indigo-700/50 py-1 px-2 rounded-md text-white">0</span>
+                        </figure>
+                        <div>
+                            <h2 class="font-bold text-lg mt-3">iPhone 14</h2>
+                            <p>Toujours aussi doué.</p>
+                        </div>
+                        <div>
+                            <p class="font-medium"><span class="product-price">869</span> €</p>
+                            <div class="flex justify-between mt-3">
+                                <button class="plus bg-indigo-700 hover:bg-indigo-600 text-white py-2 px-6 rounded-md">Add to
+                                    cart</button>
+                                <button class="minus border-2 border-indigo-700 hover:bg-indigo-700 hover:text-white  py-[6px] px-3 rounded-md font-bold ">-</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="p-4">
+                        <figure class="relative">
+                            <img class="o" src="/assets/iphone_15__2.png" alt="iPhone 13">
+                            <span class="nbr-itm absolute top-2 right-2 bg-indigo-700/50 py-1 px-2 rounded-md text-white">0</span>
+                        </figure>
+                        <div>
+                            <h2 class="font-bold text-lg mt-3">iPhone 13</h2>
+                            <p>Multitalent.</p>
+                        </div>
+                        <div>
+                            <p class="font-medium"><span class="product-price">749</span> €</p>
+                            <div class="flex justify-between mt-3">
+                                <button class="plus bg-indigo-700 hover:bg-indigo-600 text-white py-2 px-6 rounded-md">Add to
+                                    cart</button>
+                                <button class="minus border-2 border-indigo-700 hover:bg-indigo-700 hover:text-white py-[6px] px-3 rounded-md font-bold ">-</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <!-- End main section -->
+
+    <script src="main.js"></script>
+</body>
+
+</html>
